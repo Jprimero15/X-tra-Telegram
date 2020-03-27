@@ -1,5 +1,8 @@
-# FORK AT YOUR OWN RISK
-# Installing
+# FORK AT YOUR OWN RISK 
+# THIS SHIT IS BROKEN
+
+# How To Install ??
+
 ### The Easy Way
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
@@ -27,7 +30,7 @@ __The Userbot should work by setting only the first two variables__
 from heroku_config import Var
 
 class Development(Var):
-  APP_ID = 6
+  APP_ID = 666
   API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
 ```
 
@@ -39,7 +42,7 @@ The UniBorg Config is situated in `userbot/uniborgConfig.py`.
 Simply just leave the Config as it is.
 
 **Local Configuration**
-Check [Line 111](https://github.com/Total-Noob-69/X-tra-Telegram/blob/master/userbot/uniborgConfig.py#L111) and start adding your vars there.
+Check [Line 111](https://github.com/Jprimero15/X-tra-Telegram/blob/master/userbot/uniborgConfig.py#L111) and start adding your vars there.
 Fortunately there are no Mandatory vars for the UniBorg Support Config.
 
 ## Mandatory Vars
