@@ -1,5 +1,5 @@
 """Get Telegram Profile Picture and other information
-Syntax: .whois @username"""
+HOW to use: reply .whois to the target"""
 
 import html
 from telethon.tl.functions.photos import GetUserPhotosRequest
@@ -46,7 +46,7 @@ async def _(event):
     except Exception as e:
         dc_id = "Need a Profile Picture to check **this**"
         location = str(e)
-    caption = """Extracted Userdata From Anubis' DATABASE
+    caption = """`Extracted Userdata From @Junkboot's Database`
 ID: <code>{}</code>
 Rendi's Name: <a href='tg://user?id={}'>{}</a>
 Bio: {}
