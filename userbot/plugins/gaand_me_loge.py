@@ -18,10 +18,9 @@ async def _(event):
     if input_str == "gaand":
         await event.edit(input_str)
         animation_chars = [
-            "me",
-            "loge",
-            "kya?",
-            "gaand"
+            "Shut",
+            "Up",
+            "boi"
         ]
         for i in animation_ttl:
             await asyncio.sleep(animation_interval)
