@@ -11,6 +11,6 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba, check p
 @command(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("`Telethon version: 6.9.0\nPython: 3.7.3\n"
-                     "`Database Status: Databases functioning normally!\n\nAlways with you, my master!\n`"
-                     f"`My peru owner`: @Jprimero15")
+    await alive.edit("`====================\nTelethon Version: 6.6.6 \nPython Version: 3.7.3\n"
+                     "`Selinux Status: Enforcing!\n====================\n\n`"
+                     "`My PRO Owner: @Jprimero15`")
