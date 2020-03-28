@@ -121,7 +121,7 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"`Master` @Jprimero15 `has been AFK For {afk_since}\nWhere He Is: The World `" + \
+        message_to_reply = f"**WARNING!! WARNING!! WARNING!!**\n\n`This is PARANOID_BOT!!\nMaster` @Jprimero15 `has been AFK`\n`My Master's Location: Everywhere.`" + \
             f"\n\n`JUST WAIT FOR HIM NIGGA!!!`\n**REASON FOR AFK**:` {reason}`" \
             if reason \
             else f"**Important Notice**\n\n[This User Is Ded Forever...](https://telegra.ph//file/a53fa950ff31781d5930a.jpg) "
