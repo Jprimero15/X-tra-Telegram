@@ -11,6 +11,6 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet, check pinned 
 @command(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("**PARANOID BOT Info:**\n\n`Telethon Version: 6.6.6 \nPython Version: 3.7.3\n`"
+    await alive.edit("**@GhostHunterz_bot Info:**\n\n`Telethon Version: 6.6.6 \nPython Version: 3.7.3\n`"
                      "`Selinux Status: Enforcing!\n\n`"
                      "`My PRO Owner:` @Jprimero15")
