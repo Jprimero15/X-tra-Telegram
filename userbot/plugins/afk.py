@@ -141,7 +141,7 @@ async def on_afk(event):
             else:
                 afk_since = f"`{int(seconds)}s` **ago**"
         msg = None
-        message_to_reply = f"**WARNING!! WARNING!! WARNING!!**\n\n__This is PARANOID_BOT!!\nMaster__ @Jprimero15 __is AFK__\n__Total time of AFK:__ `{total_afk_time}`\n__My Master's Location:¯\_(ツ)_/¯__" + \
+        message_to_reply = f"**WARNING!! WARNING!! WARNING!!**\n\n__This is PARANOID_BOT!!\nMaster__ @Jprimero15 __is AFK__\n__Total time of AFK:__ `{total_afk_time}`\n__My Master's Location: ¯\_(ツ)_/¯__" + \
             f"\n\n**REASON FOR AFK**:` {reason}`" \
             if reason \
             else f"**Heya!**\n__I am currently unavailable. Since when, you ask? For {total_afk_time} I guess.__\n\nWhen will I be back? ~~Soon~~ __Whenever I feel like it__**( ಠ ʖ̯ ಠ)**  "
