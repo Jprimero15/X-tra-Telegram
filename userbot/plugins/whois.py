@@ -46,22 +46,23 @@ async def _(event):
     except Exception as e:
         dc_id = "Need a Profile Picture to check **this**"
         location = str(e)
-    caption = """__Extracted Userdata From @GhostHunterz_bot Database
-ID: <code>{}</code>
-User Name: <a href='tg://user?id={}'>{}</a>
-Bio: {}
-DC ID: {}
-Number of PPs: {}
-Restricted? : {}
-Verified: {}
-Bot: {}
+    caption = """Extracted data From @GhostHunterz_bot Database
+
+First Name: <a href='tg://user?id={}'>{}</a>
+User's ID: <code>{}</code>
+User's DC_ID: {}
+User's Bio: {}
+Profile Pic Count: {}
+User is Restricted?: {}
+User is Verified?: {}
+User is a Bot?: {}
 Groups in Common: {}
-__""".format(
-        user_id,
+""".format(
         user_id,
         first_name,
-        user_bio,
+        user_id,
         dc_id,
+        user_bio,
         replied_user_profile_photos_count,
         replied_user.user.restricted,
         replied_user.user.verified,
